@@ -34,6 +34,7 @@ def load_set(list):
             setting["region"] = scale_set
 
 def detect_tempo():
+    print("start play!")
     while True:
         try:
             location = pyautogui.locateOnScreen(target_image_path, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
@@ -41,7 +42,7 @@ def detect_tempo():
                 pyautogui.mouseDown(button='right')
                 time.sleep(0.05)
                 pyautogui.mouseUp(button='right')
-                print("play")
+                print("hit")
 
         except Exception as e:
             print(f"error: {str(e)}")
