@@ -1,13 +1,12 @@
 import pyautogui
+# pip install pyautogui
 target_image_path = 'image.png'
-
+confidence_value = 0.8
 while True:
     try:
         location = pyautogui.locateOnScreen(target_image_path)
-
         if location is not None:
-            x, y, _, _ = location
-            pyautogui.click(x + 10, y + 10, button='right')
+            pyautogui.click(button='right', confidence=confidence_value)
             print("play")
 
     except Exception as e:
