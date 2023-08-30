@@ -15,9 +15,9 @@ def detect_tempo():
     global confidence_value
     while True:
         try:
-            location = pyautogui.locateOnScreen(target_image_path)
+            location = pyautogui.locateOnScreen(target_image_path, confidence=confidence_value)
             if location is not None:
-                pyautogui.click(button='right', confidence=confidence_value)
+                pyautogui.click(button='right')
                 print("play")
 
         except Exception as e:
