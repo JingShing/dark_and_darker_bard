@@ -9,18 +9,18 @@ In the best case I highly suggest you to use the python to run this script.
 
 Since there are some problem to packed it as exe file. So let me help you to run this script for dark and darker bard auto play.
 * ## Install Python3.10
- * You can get [python here](https://www.python.org/downloads/release/python-3106/).
- * My script is write in 3.10.6, so I recommend to install this version.
+  * You can get [python here](https://www.python.org/downloads/release/python-3106/).
+  * My script is write in 3.10.6, so I recommend to install this version.
 * ## Install modules
- * Using command in ```modules you need``` part
- * Or using the bat file I provide name as ```install_modules.bat```
+  * Using command in ```modules you need``` part
+  * Or using the bat file I provide name as ```install_modules.bat```
 * ## Editing Setting and Finding your perfect set
- * I cannot help you in this step. As I don't know your screen resolution and pc detail.
- * So you can see the detailed setting in ```Setting``` part. And you can cut the perfect image by yourself.
+  * I cannot help you in this step. As I don't know your screen resolution and pc detail.
+  * So you can see the detailed setting in ```Setting``` part. And you can cut the perfect image by yourself.
 * ## Final
- * Enjoy your perfect auto song machine.
- * And if you think this repo helped you can leave a comment or star.
- * Genuinely Thank you for reading README.
+  * Enjoy your perfect auto song machine.
+  * And if you think this repo helped you can leave a comment or star.
+  * Genuinely Thank you for reading README.
 
 # module you need
 * ```pip install PyAutoGUI```
