@@ -8,6 +8,13 @@ In the [latest version](https://github.com/JingShing-Python/dark_and_darker_bard
 * ```pip install PyAutoGUI```
 * ```pip install opencv-python```
 
+Or you can use ```install_modules.bat```:
+```bat
+@echo off
+pip install PyAutoGUI
+pip install opencv-python
+```
+
 # image you need
 Because it will need right resolution. So it may need to cut the right image by your self.
 
