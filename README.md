@@ -14,6 +14,23 @@ And image should be named ```image.png```.
 # principle
 This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
 
+# Bat
+You can use bat to automatically using python to run it.
+
+It is a convenient way to run script(Since I have trouble to packed script into exe).
+
+bat code:
+```bat
+@echo off
+REM it will run two command
+REM switch to the bat folder
+cd /d "%~dp0"
+
+REM run python script
+python bard_auto_play.py
+```
+
+
 # Setting
 You can edit ```setting.txt``` to make this script more suitable for your purpose:
 * confidence=0.88
