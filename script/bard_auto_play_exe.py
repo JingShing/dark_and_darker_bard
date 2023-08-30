@@ -1,3 +1,5 @@
+# this script is for pack to exe
+# since i donot know why i cannot pack opencv in exe
 from pyautogui import mouseDown, mouseUp, locateOnScreen
 import time
 
