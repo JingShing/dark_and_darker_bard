@@ -30,7 +30,6 @@ REM run python script
 python bard_auto_play.py
 ```
 
-
 # Setting
 You can edit ```setting.txt``` to make this script more suitable for your purpose:
 * confidence=0.88
