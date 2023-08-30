@@ -11,3 +11,7 @@ And image should be named ```image.png```.
 
 # principle
 This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
+
+# different version
+## recorded version
+## detect tempo version
