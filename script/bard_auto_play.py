@@ -1,3 +1,4 @@
+# code written by: JingShing
 from pyautogui import mouseDown, mouseUp, locateOnScreen
 import time
 
