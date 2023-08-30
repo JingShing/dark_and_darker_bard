@@ -2,6 +2,8 @@
 # dark and darker 吟遊詩人腳本
 一個協助自動演奏的腳本。
 
+在 [最新的版本中](https://github.com/JingShing-Python/dark_and_darker_bard/releases/tag/ver1.4)。我們已經能演奏大部分的樂器和樂曲！
+
 # 需要的庫
 * ```pip install PyAutoGUI```
 * ```pip install opencv-python```
