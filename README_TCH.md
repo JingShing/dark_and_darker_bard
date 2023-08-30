@@ -12,19 +12,19 @@
 圖片名需為 ```image.png```。
 
 # 原理
-This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
+原理是採用圖形偵測，來偵測指標到達黃色的節奏點時，可以自動撥放。如果想要調整更好的效果，可以更改 ```setting.txt``` 的參數 和自行擷取更好的 ```image.png```。
 
-# different version
-## detect tempo version
-I highly suggest to directly to use [This Script](script/auto_play_bard.py). Or you can use these [packed exe](https://github.com/JingShing-Python/dark_and_darker_bard/releases) in release.
+# 不同版本
+## 偵測節奏版本(預設的 script)
+我更建議直接使用 [此腳本](script/auto_play_bard.py)。當然也可以使用 [打包好的版本](https://github.com/JingShing-Python/dark_and_darker_bard/releases) 不過打包好的效果並沒代碼好。
 
-Since I cannot deal with the confidence parameter in packed exe. So I highly suggest to use code directly.
+因為 confidence 的參數我無法打包進 exe 中。所以準確度很差。
 
-Now this version is kindly worked? It can play long tempo song. But sometimes it failed to detect.
+目前的版本可以正常演奏部分節奏較長的樂曲。但短節奏的樂曲會在偵測上有些問題。
 
-* Suggested resolution is 1920X1080. OR you should cut your own ```image.png``` and change ```setting.txt```
-* And your pc should installed opencv-python using ```pip install opencv-python```
-## recorded tempo version
-I want to tried another method to play song.
+* 建議解析度為 1920X1080。 否則需要自行替換 ```image.png``` 和調整 ```setting.txt```
+* 電腦需要安裝 opencv-python ，可以使用這個指令安裝： ```pip install opencv-python```
+## 錄製節奏版本 (recorded tempo version)
+我當時想嘗試看看其他方法來自動演奏，所以採用了錄製好節奏的方法。
 
-This method is to record all the song play. But this method is totally waste time.
+這個方法可以演奏大部分歌曲，但是很麻煩，所以我放棄了這個方法。
