@@ -14,6 +14,22 @@
 # 原理
 原理是採用圖形偵測，來偵測指標到達黃色的節奏點時，可以自動撥放。如果想要調整更好的效果，可以更改 ```setting.txt``` 的參數 和自行擷取更好的 ```image.png```。
 
+# Bat
+Script 中的 bat 檔可以幫助你快速的啟動 python 腳本。
+
+這是一個比較方便的方法來開啟 python 腳本(因為這個腳本打包時，有些問題)
+
+bat 代碼:
+```bat
+@echo off
+REM 這個 bat 會跑兩個指令
+REM 切換到 bat 在的資料夾
+cd /d "%~dp0"
+
+REM 跑 python 腳本
+python bard_auto_play.py
+```
+
 # 設置檔
 可以透過修改 ```setting.txt``` 來讓腳本的效果更好:
 * confidence=0.88
