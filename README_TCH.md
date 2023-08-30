@@ -6,12 +6,12 @@
 * ```pip install PyAutoGUI```
 * ```pip install opencv-python```
 
-# image you need
-Because it will need right resolution. So it may need to cut the right image by your self.
+# 需要的圖片
+因為需要正確的解析度，我是使用 1920X1080 作為範例。如果效果不佳，請自行擷取。
 
-And image should be named ```image.png```.
+圖片名需為 ```image.png```。
 
-# principle
+# 原理
 This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
 
 # different version
