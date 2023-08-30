@@ -8,6 +8,13 @@
 * ```pip install PyAutoGUI```
 * ```pip install opencv-python```
 
+或者你可以使用 ```install_modules.bat``` 來安裝:
+```bat
+@echo off
+pip install PyAutoGUI
+pip install opencv-python
+```
+
 # 需要的圖片
 因為需要正確的解析度，我是使用 1920X1080 作為範例。如果效果不佳，請自行擷取。
 
