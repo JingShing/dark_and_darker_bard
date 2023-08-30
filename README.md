@@ -36,10 +36,10 @@ You can edit ```setting.txt``` to make this script more suitable for your purpos
   * This value is for the tolerance for the image. I suggest value between 0.85 ~ 1.0
 * grayscale=True
   * This value is True or False. This value is for using grey image to detect or not. If using this script can be faster.
-* region=768,860,500,100
+* region=763,859,390,30
   * This is for detect area. It can be edit by your self. 4 value is for x, y, width, height.
   * Default 1920X1080 should be 0, 0, 1920, 1080.
-  * 768,860,500,100 is also for the 1920X1080 resolution.
+  * region=763,859,390,30 is also for the 1920X1080 resolution.
 * interval=0.01
  * time interval between right click. I suggest value between 0.01 ~ 0.05.
 
