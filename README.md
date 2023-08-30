@@ -22,7 +22,7 @@ Now this version is kindly worked? It can play long tempo song. But sometimes it
 
 * Suggested resolution is 1920X1080. OR you should cut your own ```image.png``` and change ```setting.txt```
 * And your pc should installed opencv-python using ```pip install opencv-python```
-## recorded version
+## recorded tempo version
 I want to tried another method to play song.
 
 This method is to record all the song play. But this method is totally waste time.
