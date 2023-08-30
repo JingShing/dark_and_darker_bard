@@ -20,7 +20,7 @@ Since there are some problem to packed it as exe file. So let me help you to run
 * ## Final
   * Enjoy your perfect auto song machine.
   * And if you think this repo helped you can leave a comment or star.
-  * Genuinely Thank you for reading README.
+  * Genuinely Thank you for reading ```README```.
 
 # module you need
 * ```pip install PyAutoGUI```
