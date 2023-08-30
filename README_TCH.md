@@ -1,9 +1,10 @@
 [English](README.md) | 繁體中文
-# dark_and_darker_bard
-a script help you to auto play bard music.
+# dark and darker 吟遊詩人腳本
+一個協助自動演奏的腳本。
 
-# module you need
-```pip install pyautogui```
+# 需要的庫
+* ```pip install PyAutoGUI```
+* ```pip install opencv-python```
 
 # image you need
 Because it will need right resolution. So it may need to cut the right image by your self.
