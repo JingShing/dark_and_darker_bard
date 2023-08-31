@@ -4,7 +4,8 @@ import time
 
 # pip install pyautogui
 setting = dict()
-target_image_path = 'image.png'
+image_left = 'image_left.png'
+image_right = 'image_right.png'
 def read_text_file_to_list(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -43,7 +44,9 @@ def detect_tempo():
     print("start play!")
     while True:
         try:
-            location = locateOnScreen(target_image_path, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
+            location = locateOnScreen(image_left, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
+            if location is None:
+                location = locateOnScreen(image_right, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
             if location is not None:
                 mouseDown(button='right')
                 time.sleep(setting["interval"])

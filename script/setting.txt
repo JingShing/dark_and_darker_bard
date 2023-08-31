@@ -1,4 +1,4 @@
-confidence=0.88
-grayscale=False
+confidence=0.9
+grayscale=True
 region=763,859,390,30
 interval=0.01
