@@ -94,4 +94,33 @@ This method is to record all the song play. But this method is totally waste tim
 * Release first version
   * Still disorder. And it is worked like a disastar.
   * It just a code junk.
+  * Started to suspect to the image detect.
+## Ver 1.1
+* Give up using image detect and recording song script.
+  * It still worked awful.
+  * It is not easy to record all the song.
+## Ver 1.2
+* Figure out that we can give image detect some confidence.
+  * Ya. The confidence made the image detect worked.
+  * It fill my determination.
+  * Nooooo. Confidence broke exe package.
+  * Sorry guys. We need to dircetly using script.
+## Ver 1.3
+* I find out that we cannot just using ```click()``` function to simulate right click.
+  * Write new click function. And it worked!
+  * So in this version. We finally can run.
+  * I add some setting in this script: confidence, grayscale, interval and region.
+## Ver 1.4
+* Actually it worked. But it kinda broke? So I spend some time to make it better.
+  * I cut the region to make it faster.
+  * I adjust some confidence. To make it more wisely.
+  * I consider to using grey scale. It make detect more faster.
+  * I adjust the interval between right click to avoid double clicking.
+  * And I made two bat to help you to install module and run python more easily.
+## Ver 1.5
+* I was frustrated. That sometimes script work not well. So I started to get more image to detect.
+  * In my case. In the elder version that I only detect one side of pointer. So it is easy to miss tempo.
+  * I add two side detect. So it can be more accurate.
+  * It worked better than usual.
+  * I decide to cut more image to make it run better.
 </details>
