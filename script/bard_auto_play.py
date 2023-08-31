@@ -1,4 +1,5 @@
 # code written by: JingShing
+# This script is for dark and darker bard autoplay song
 from pyautogui import mouseDown, mouseUp, locateOnScreen
 import time
 import os
@@ -56,7 +57,6 @@ def detect_tempo():
                 mouseDown(button='right')
                 time.sleep(setting["interval"])
                 mouseUp(button='right')
-                print("hit")
 
         except Exception as e:
             print(f"error: {str(e)}")
