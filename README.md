@@ -76,7 +76,7 @@ You can edit ```setting.txt``` to make this script more suitable for your purpos
 Here is the [script help you to get position](https://github.com/JingShing/dark_and_darker_bard/blob/main/helping_script/get_position.py).
 
 Region has 4 value: x, y, width, height.
-You should get the right top pos(x1, y1) and left down pos(x2, y2).
+You should get the left top pos(x1, y1) and right down pos(x2, y2).
 And right value should be x1,y1,(x2-x1),(y2-y1)
 
 # different version
