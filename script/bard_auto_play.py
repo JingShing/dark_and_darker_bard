@@ -1,11 +1,12 @@
 # code written by: JingShing
 from pyautogui import mouseDown, mouseUp, locateOnScreen
 import time
+import os
 
 # pip install pyautogui
 setting = dict()
-image_left = 'image_left.png'
-image_right = 'image_right.png'
+image_list = list()
+folder_name = "image"
 def read_text_file_to_list(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -44,9 +45,13 @@ def detect_tempo():
     print("start play!")
     while True:
         try:
-            location = locateOnScreen(image_left, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
-            if location is None:
-                location = locateOnScreen(image_right, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
+            for i in image_list:
+                file_name = folder_name+"/"+i
+                location = locateOnScreen(file_name, confidence=setting["confidence"], grayscale=setting["grayscale"], region=setting["region"])
+                if location is not None:
+                    print("find: "+i)
+                    break
+
             if location is not None:
                 mouseDown(button='right')
                 time.sleep(setting["interval"])
@@ -56,7 +61,18 @@ def detect_tempo():
         except Exception as e:
             print(f"error: {str(e)}")
 
+
+def find_folder_file(folder_path=folder_name)->list():
+    if os.path.exists(folder_path):
+        file_list = os.listdir(folder_path)
+        return file_list
+    else:
+        print("folder not exist")
+        return []
+
 if __name__ == "__main__":
+    image_list = find_folder_file(folder_path=folder_name)
+    print("image list loaded: "+str(image_list))
     default_set()
     load_set(read_text_file_to_list("setting.txt"))
     detect_tempo()
