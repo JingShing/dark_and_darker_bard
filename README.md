@@ -37,8 +37,9 @@ pip install opencv-python
 Because it will need right resolution. So it may need to cut the right image by your self.
 
 ~~And image should be named ```image.png```.~~
-* In the latest version. It will take two image: ```image_left.png``` and ```image_right.png```.
+~~* In the latest version. It will take two image: ```image_left.png``` and ```image_right.png```.~~
 > In the future version. It will take more image to increase accuracy.
+* In version 1.6. We can just put image file in ```image``` folder. Script will automatically read all the image in this folder.
 
 # principle
 This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
@@ -123,4 +124,9 @@ This method is to record all the song play. But this method is totally waste tim
   * I add two side detect. So it can be more accurate.
   * It worked better than usual.
   * I decide to cut more image to make it run better.
+## Ver 1.6
+* Add auto image finder. Just put all image you want to detect in the ```image``` folder. Script will automatically detect all the imaeg.
+  * We are finally can just put lots image to detect without named it as ```image.png```.
+  * You can named it with english alphabet and all ascii code.
+  * Image more flexible to add or reduce.
 </details>
