@@ -73,6 +73,13 @@ python bard_auto_play.py
 * interval=0.01
  * 右鍵按下的時間間隔。 建議數值： 0.01 ~ 0.05。
 
+## 有關判定區域的設定
+這裡有 [腳本可以幫助你取得座標](https://github.com/JingShing/dark_and_darker_bard/blob/main/helping_script/get_position.py)。
+
+判定區域有 4 個數值: x, y, 寬度, 高度.
+可以透過拿到左上座標(x1, y1) 和右下座標(x2, y2).
+數值應該為： x1,y1,(x2-x1),(y2-y1)
+
 # 不同版本
 ## 偵測節奏版本(預設的 script)
 我更建議直接使用 [此腳本](script/auto_play_bard.py)。當然也可以使用 [打包好的版本](https://github.com/JingShing-Python/dark_and_darker_bard/releases) 不過打包好的效果並沒代碼好。
