@@ -36,7 +36,8 @@ pip install opencv-python
 # image you need
 Because it will need right resolution. So it may need to cut the right image by your self.
 
-And image should be named ```image.png```.
+~~And image should be named ```image.png```.~~
+* In the latest version. It will take two image: ```image_left.png``` and ```image_right.png```.
 
 # principle
 This script is made for detect the image that the bar moving in yellow area. And it will auto right click. So you sould replace the ```image.png``` by yourself.
@@ -84,3 +85,12 @@ Now this version is kindly worked? It can play long tempo song. But sometimes it
 I want to tried another method to play song.
 
 This method is to record all the song play. But this method is totally waste time.
+
+<details>
+<summary>Update Log</summary>
+
+## Ver 1.0
+* Release first version
+  * Still disorder. And it is worked like a disastar.
+  * It just a code junk.
+</details>
