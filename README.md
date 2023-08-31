@@ -72,6 +72,12 @@ You can edit ```setting.txt``` to make this script more suitable for your purpos
   * region=763,859,390,30 is also for the 1920X1080 resolution.
 * interval=0.01
  * time interval between right click. I suggest value between 0.01 ~ 0.05.
+## About the region problem
+Here is the [script help you to get position](https://github.com/JingShing/dark_and_darker_bard/blob/main/helping_script/get_position.py).
+
+Region has 4 value: x, y, width, height.
+You should get the right top pos(x1, y1) and left down pos(x2, y2).
+And right value should be x1,y1,(x2-x1),(y2-y1)
 
 # different version
 ## detect tempo version
