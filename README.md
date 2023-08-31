@@ -96,7 +96,7 @@ This method is to record all the song play. But this method is totally waste tim
   * It just a code junk.
   * Started to suspect to the image detect.
 ## Ver 1.1
-* Give up using image detect and recording song script.
+* Give up using image detect, and started recording song script.
   * It still worked awful.
   * It is not easy to record all the song.
 ## Ver 1.2
