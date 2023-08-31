@@ -76,9 +76,9 @@ python bard_auto_play.py
 ## 有關判定區域的設定
 這裡有 [腳本可以幫助你取得座標](https://github.com/JingShing/dark_and_darker_bard/blob/main/helping_script/get_position.py)。
 
-判定區域有 4 個數值: x, y, 寬度, 高度.
-可以透過拿到左上座標(x1, y1) 和右下座標(x2, y2).
-數值應該為： x1,y1,(x2-x1),(y2-y1)
+* 判定區域有 4 個數值: x, y, 寬度, 高度.
+* 可以透過拿到左上座標(x1, y1) 和右下座標(x2, y2).
+* 數值應該為： x1,y1,(x2-x1),(y2-y1)
 
 # 不同版本
 ## 偵測節奏版本(預設的 script)
