@@ -7,7 +7,9 @@ In the [latest version](https://github.com/JingShing-Python/dark_and_darker_bard
 # How to use?
 In the best case I highly suggest you to use the python to run this script. 
 
-Since there are some problem to packed it as exe file. So let me help you to run this script for dark and darker bard auto play.
+* In the latest version you can now use packed exe.
+
+~~Since there are some problem to packed it as exe file. So let me help you to run this script for dark and darker bard auto play.~~
 * ## Install Python3.10
   * You can get [python here](https://www.python.org/downloads/release/python-3106/).
   * My script is write in 3.10.6, so I recommend to install this version.
@@ -21,6 +23,11 @@ Since there are some problem to packed it as exe file. So let me help you to run
   * Enjoy your perfect auto song machine.
   * And if you think this repo helped you can leave a comment or star.
   * Genuinely Thank you for reading ```README```.
+# How to packed exe
+* python 3.9.10
+* ```pip install opencv-python==4.5.3.56```
+> there are some problem between latest opencv and pyinstaller.
+* using pyinstaller to packed exe
 
 # module you need
 * ```pip install PyAutoGUI```
@@ -135,4 +142,10 @@ This method is to record all the song play. But this method is totally waste tim
   * We are finally can just put lots image to detect without named it as ```image.png```.
   * You can named it with english alphabet and all ascii code.
   * Image more flexible to add or reduce.
+## Ver 1.7
+* Found reason why cannot packed exe.
+  * It is kinda silly. And waste lots of my time.
+  * The detailed reason can see in ```How to packed exe```.
+  * Opencv and pyinstaller are conflict in 3.10. And you should install 3.9.10 to avoid that.
+  * And suggest install ``` pip install opencv-python==4.5.3.56``` and there are reference in [requirement.txt](requirement.txt).
 </details>
