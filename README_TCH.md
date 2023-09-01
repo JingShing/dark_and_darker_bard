@@ -7,7 +7,9 @@
 # 如何使用？
 在最佳的條件下，我推薦您使用 python 來直接運行腳本。
 
-因為打包成 exe 檔有些技術上的障礙，所以接下來將由我來幫助您安裝所需的環境和配件。
+* 在最新的版本中可以使用打包好的 exe 檔。
+
+~~因為打包成 exe 檔有些技術上的障礙，所以接下來將由我來幫助您安裝所需的環境和配件。~~
 * ## 安裝 Python3.10
   * 可以在 [這裡](https://www.python.org/downloads/release/python-3106/) 下載 python 的安裝包。
   * 此腳本使用 3.10.6 版本測試，所以我推薦使用此版本。
@@ -21,6 +23,11 @@
   * 享受您的自動撥放點唱機(無情的唱歌機器、沒有靈魂的吟遊詩人)。
   * 如果這個腳本有幫助到您，歡迎留下星星和評論。
   * 真摯地感謝您閱讀了此篇 ```README```
+# 如何打包
+* python 3.9.10
+* ```pip install opencv-python==4.5.3.56```
+> 在最新的版本中 opencv 和 pyinstaller 相容性很糟。
+* 使用 pyinstaller 打包 exe
 
 # 需要的庫
 * ```pip install PyAutoGUI```
@@ -136,4 +143,11 @@ python bard_auto_play.py
   * 我們終於可以不用使用 ```image.png``` 來命名圖檔了。
   * 可以使用英文字母和 ascii 的符號來命名。(中文命名可能會有問題)
   * 圖片數量可以自由地增加或減少了。
+## 版本 1.7
+* 找到不能打包 exe 檔的原因了
+  * 原因很簡單，而這浪費了我大量的時間
+  * 詳細原因可以參見 ```如何打包 exe```。
+  * Opencv 和 pyinstaller 在 python 的 3.10 版本後有些衝突。可以安裝 3.9 以前的版本來避免。
+  * 建議安裝此版本的 opencv： ``` pip install opencv-python==4.5.3.56```
+  * 具體套件可以參考此： [requirement.txt](requirement.txt).
 </details>
