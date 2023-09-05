@@ -4,6 +4,13 @@
 
 在 [最新的版本中](https://github.com/JingShing-Python/dark_and_darker_bard/releases/tag/ver1.4)。我們已經能演奏大部分的樂器和樂曲！
 
+## [預覽影片](https://youtu.be/2QAdS9OccjA)
+點擊下方圖片或 [此連結](https://youtu.be/2QAdS9OccjA) 觀看腳本預覽影片。
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2QAdS9OccjA" target="_blank">
+ <img src="http://img.youtube.com/vi/2QAdS9OccjA/mqdefault.jpg" alt="Watch the video"/>
+</a>
+
 # 如何使用？
 在最佳的條件下，我推薦您使用 python 來直接運行腳本。
 
