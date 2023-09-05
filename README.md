@@ -4,6 +4,13 @@ a script help you to auto play bard music.
 
 In the [latest version](https://github.com/JingShing-Python/dark_and_darker_bard/releases/tag/ver1.4) it can worked in most song.
 
+## [Video Preview](https://youtu.be/2QAdS9OccjA)
+You can click the image below to watch the [video preview](https://youtu.be/2QAdS9OccjA).
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2QAdS9OccjA" target="_blank">
+ <img src="http://img.youtube.com/vi/2QAdS9OccjA/mqdefault.jpg" alt="Watch the video"/>
+</a>
+
 # How to use?
 In the best case I highly suggest you to use the python to run this script. 
 
